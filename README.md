@@ -7,3 +7,11 @@ Hardcoded json data file containing information from the pokedex about the origi
 
 - /pokedex
   - returns the entire pokedex
+- /pokedex/pokemon/<ID>
+  - returns all the information the pokedex contains for the pokemon with the corresponding ID
+- /pokedex/getAllTypes
+  - returns a list of all pokemon elemental types 
+- /pokedex/getPokemonByType/<elemental type>
+  - returns a list of all pokemon that have the corresponding elemental type
+- /pokedex/getEvolutions/<pokemon (either name or ID)>
+  - returns previous and next evolution of a pokemon, if applicable
