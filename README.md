@@ -15,3 +15,7 @@ Hardcoded json data file containing information from the pokedex about the origi
   - returns a list of all pokemon that have the corresponding elemental type
 - /pokedex/getEvolutions/<pokemon (either name or ID)>
   - returns previous and next evolution of a pokemon, if applicable
+
+## Running in Docker
+docker build -t pokedex .
+docker run -p 5000:5000 pokedex
