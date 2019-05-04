@@ -1,2 +1,1 @@
 flask_restful
-Flask==0.10.1
