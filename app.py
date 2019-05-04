@@ -119,5 +119,5 @@ api.add_resource(GetPokemonByType, '/pokedex/getPokemonByType/<string:pokeType>'
 api.add_resource(GetEvolutions, '/pokedex/getEvolutions/<string:pokemon>')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host='0.0.0.0')
 
